@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async-redis": "^2.0.0",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "express-ws": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.12.11",
+    "morgan": "^1.10.0",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.2.8",
+    "nodemailer": "^6.6.1",
+    "socket.io": "^4.4.0",
+    "uuid": "^8.3.2",
+    "ws": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
